@@ -4,7 +4,7 @@
     height="400"
   >
     <v-app-bar
-      color="primary"
+      color="#935116"
       dark
     >
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
@@ -29,7 +29,7 @@
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Home</v-list-item-title>
+            <v-list-item-title>Inicio</v-list-item-title>
           </v-list-item>
 
           <v-list-item :to="'/Compras'">
@@ -38,32 +38,31 @@
             </v-list-item-icon>
             <v-list-item-title>compras</v-list-item-title>
           </v-list-item>
+
             <v-list-item :to="'/Ventas'">
             <v-list-item-icon>
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
             <v-list-item-title>ventas</v-list-item-title>
         </v-list-item>
+        
+        <v-list-item :to="'/Productos'">
+          <v-list-item-icon>
+            <v-icon>mdi-account</v-icon>
+          </v-list-item-icon>
+          <v-list-item-title>Productos</v-list-item-title>
+        </v-list-item>
+
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
-    <body bgcolor="#EAD1C2">
+    <body>
       <div>
-          <img src="../assets/logomuebles.jpg" height="90px" border="2.5">
+          <center><img src="../assets/logomuebles.jpg" height="90px"></center>
           <h1>Muebles Casa Vieja</h1>
           <header>
               <nav>
-                   <ul class="navegacion">
-                      <div class="contenedor">
-                      <div class="barra">
-                          <a href="#">Inicio</a>
-                          <a href="#">Salas</a>
-                          <a href="#">Comedores</a>
-                          <a href="#">Escritorios</a>
-                          <a href="#">Contactanos</a>
-                      </div>
-                      </div>
-                  </ul>
+          
               </nav>
           </header>
           <div class="field" id="searchform">
@@ -85,25 +84,18 @@ export default {
 </script>
 
 <style>
-v-app-bar{
-  background: rgb(155, 100, 58);
-  width: 100%;
-  z-index: index 100%;
-  position:absolute;
-  height: 23px;
-  margin-right: 5px;
-}
 header {
   background: rgb(155, 100, 58);
   width: 100%;
   z-index: index 100%;
-  position:absolute;
+  position:sticky;
   height: 23px;
   margin-right: 5px;
+
 }
 
 nav {
-  float: center;
+  text-align: center;
 }
 
 nav ul {
@@ -130,31 +122,29 @@ a:hover {
   font:12pt;
 }
 
-body {
-background-color:#e7bd97;
-}
-
 .field {
-
 display:flex;
 position:relative;
-margin:2em auto;
-width:70%;
+margin:0.18em auto;
+width:80%;
 flex-direction:row;
+border-style: solid;
+border-width: 1.5px 1.5px;
 box-shadow:
- 1px 1px 0 rgb(157, 96, 26),
- 2px 2px 0 rgb(157, 96, 26),
- 3px 3px 0 rgb(157, 96, 26),
- 4px 4px 0 rgb(157, 96, 26),
- 5px 5px 0 rgb(157, 96, 26),
- 6px 6px 0 rgb(157, 96, 26),
- 7px 7px 0 rgb(157, 96, 26)
-;
+
+ 1px 1px 0 rgb(136, 73, 21),
+ 2px 2px 0 rgb(136, 73, 21),
+ 3px 3px 0 rgb(136, 73, 21),
+ 4px 4px 0 rgb(136, 73, 21),
+ 5px 5px 0 rgb(136, 73, 21),
+ 6px 6px 0 rgb(136, 73, 21),
+ 7px 7px 0 rgb(136, 73, 21)
+
 }
 
 .field>input[type=text],
 .field>button {
-display:block;
+display:flex;
 font:1.2em 'Montserrat Alternates';
 
 }
@@ -177,6 +167,7 @@ font-family: Arial Black;
 font-size: 45px;
 text-shadow: 1px 1px black;
 color:saddlebrown;
+text-align: center;
 }
 a{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -190,6 +181,9 @@ img{
 height: 100px;
 margin-top: 20px;
 border-radius: 5px;
+border-style:solid;
+border-color: #513111;
 }
+
 
 </style>
