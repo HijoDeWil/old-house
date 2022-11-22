@@ -83,7 +83,7 @@ export default {
   }
 </script>
 
-<style>
+<style scoped>
 header {
   background: rgb(155, 100, 58);
   width: 100%;
@@ -106,7 +106,7 @@ nav ul {
 nav ul a {
   
   padding: 20px;
-  color: #fff;
+  color: rgb(157, 96, 26);
   text-decoration:none;
   margin-right: 3px;
 }
