@@ -64,6 +64,7 @@
   
         <div id="lista-cursos" class="container">
           <h1 id="encabezado" class="encabezado">¡Trabajamos Para Darte Lo Mejor!</h1>
+          <h3>Camas</h3>
           <div class="row">
               <div class="four columns">
                   <div class="card">
@@ -82,7 +83,7 @@
                       <div class="card">
                           <img src="../assets/producto2.png"  class="imagen-curso u-full-width">
                           <div class="info-card">
-                              <h4>Sofá Clásico Beige</h4>
+                              <h4>Sofá color Beige</h4>
                               <p>Mireya Anaya</p>
                               <img src="../assets/estrellas.png">
                               <p class="precio">$500.000  <span class="u-pull-right ">$449990</span></p>
@@ -95,7 +96,7 @@
                       <div class="card">
                           <img src="../assets/producto3.jpg" class="imagen-curso u-full-width">
                           <div class="info-card">
-                              <h4>Bifé Clásico Color Café</h4>
+                              <h4>Bifé Clásico Café</h4>
                               <p>Juan Pedro</p>
                               <img src="../assets/estrellas.png">
                               <p class="precio">$500.000  <span class="u-pull-right ">$399990</span></p>
@@ -168,6 +169,7 @@
                           </div>
                       </div> <!--.card-->
               </div>
+              
               <div class="four columns">
                       <div class="card">
                           <img src="../assets/producto1.png" class="imagen-curso u-full-width">
@@ -220,28 +222,70 @@
                   </div>
               </div> <!--.row-->
       </div>  
-      <footer id="footer" class="footer">
-        <div class="container">
-            <div class="row">
-                    <div class="four columns">
-                            <nav id="principal" class="menu">
-                                <a class="enlace" href="#">Para tu Negocio</a>
-                                <a class="enlace" href="#">Conviertete en Instructor</a>
-                                <a class="enlace" href="#">Aplicaciones Móviles</a>
-                                <a class="enlace" href="#">Soporte</a>
-                                <a class="enlace" href="#">Temas</a>
-                            </nav>
-                    </div>
-                    <div class="four columns">
-                            <nav id="secundaria" class="menu">
-                                <a class="enlace" href="#">¿Quienes Somos?</a>
-                                <a class="enlace" href="#">Empleo</a>
-                                <a class="enlace" href="#">Blog</a>
-                            </nav>
-                    </div>
-            </div>
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Untitled</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+  
+  
+   </head>
+        <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-center">
+                      <!--   <div class="col-sm-4 col-md-3 item">
+                            <h3>Servicios</h3>
+                            <ul>
+                              <li><a href="#"></a>Página oficial de la empresa</li>
+                                <li><a href="#">material de alta calidad</a></li>
+                                <li><a href="#">pregunta por nosotros</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Legacy</a></li>
+                            </ul>
+                        </div> -->
+                        
+                <div class="ubicacion"><img src="../assets/ubicacion.png" alt="ubicacion">
+                 <div class="direccion-maps"> <a target="_blank" href="https://www.google.com/maps/place/Muebles+Casa+Vieja/@7.0403565,-73.0757384,16.5z/data=!4m5!3m4!1s0x8e6841533dcd8c53:0x8ca53026b7345757!8m2!3d7.040578!4d-73.07572?hl=es">Visítanos</a></div>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                  <h3>Dirección</h3>
+                  <ul>
+                      <li><a href="#">Job openings</a></li>
+                      <li><a href="#">Employee success</a></li>
+                      <li><a href="#">Benefits</a></li>
+                     
+                  </ul>
+                
+              </div>
+              <div class="col-lg-3 item social">
+                <!-- <a href="www.facebook.com"><i class="icon ion-social-facebook"></i></a> -->
+                <a target="_blank" class="icon ion-social-facebook" href="https://www.facebook.com/"></a>
+                <!-- <a href="#"><i class="icon ion-social-twitter"></i></a> -->
+                <a target="_blank" class="icon ion-social-twitter" href="https://www.twitter.com/"></a>
+                <!-- <a href="#"><i class="icon ion-social-snapchat"></i></a> -->
+                <a target="_blank" class="icon ion-social-snapchat" href="https://www.snapchat.com/"></a>
+                <!-- <a href="#"><i class="icon ion-social-instagram"></i></a> -->
+                <a target="_blank" class="icon ion-social-instagram" href="https://www.instagram.com/"></a>
+                
+  
+                  <p class="copyright">REDES OFICIALES DE CASA VIEJA</p>
+                  
+              </div>
+          </div>
+      </div>
+            </footer>
         </div>
-    </footer>
+        
+    
     </body>
   </v-card>
     </v-app>
@@ -378,10 +422,6 @@ h1 {
 }
 h2 {
     font-size: 3rem;
-}
-h4 {
-    font-size: 16px;
-    font-weight: 700;
 }
 header {
     padding: 1px 0;
@@ -657,20 +697,20 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h5, h6 {
     margin-top: 0;
     margin-bottom: 2rem;
     font-weight: 300; }
-  h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+  h1 { font-size: 2rem; line-height: 1.2;  letter-spacing: -.1rem;}
   h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
   h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
-  h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
+  
   h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
   h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   
   /* Larger than phablet */
   @media (min-width: 550px) {
-    h1 { font-size: 5.0rem; }
+    h1 { font-size: 1rem; }
     h2 { font-size: 4.2rem; }
     h3 { font-size: 3.6rem; }
     h4 { font-size: 3.0rem; }
@@ -1060,7 +1100,7 @@ body {
    */
   
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0.67em 0;
   }
   
@@ -1352,4 +1392,92 @@ body {
   th {
     padding: 0;
   }
+  h3{
+    font-family:Arial Black;
+    font-size: 40px;
+    text-shadow: #503805 1.5px 1.5px;
+    text-align: center;
+    color: #9b7525;
+  }
+  p{
+    font-size: 12px;
+  }
+  .submenu{
+   margin-left: 45px;
+  }
+  th{
+    font-size: 12px;
+  }
+  td{
+    
+  }
+  h4 { font-size: 1rem; line-height: 1.35; letter-spacing: -.08rem; }
+  .footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+   .ubicacion{
+    justify-content: center;
+    margin-left: 150px;
+   }
+   .direccion-maps{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   }
   </style> 
