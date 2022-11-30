@@ -1,9 +1,14 @@
-import Compras from './pages/ComprasNew.vue'
+import Pedidos from './pages/PedidosProductos.vue'
 import Ventas from './pages/VentasNew.vue'
 import Productos from './pages/ProductosCard.vue'
+import Home from './pages/HomePage.vue'
+import AddProduct from './pages/AgregarProductos.vue'
+
 
 export const routes = [
     {path:'/Ventas',component:Ventas},
-    {path:'/Compras',component:Compras},
-    {path:'/Productos',component:Productos}
+    {path:'/Pedidos',component:Pedidos},
+    {path:'/Productos',component:Productos},
+    {path:'/Home',component:Home},
+    {path:'/AddProduct',component:AddProduct}
 ]

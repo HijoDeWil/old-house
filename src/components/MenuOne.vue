@@ -25,18 +25,18 @@
           v-model="group"
           active-class="secundary"
         >
-          <v-list-item>
+          <v-list-item :to="'/Home'">
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Inicio</v-list-item-title>
           </v-list-item>
 
-          <v-list-item :to="'/Compras'">
+          <v-list-item :to="'/Pedidos'">
             <v-list-item-icon>
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>compras</v-list-item-title>
+            <v-list-item-title>pedidos</v-list-item-title>
           </v-list-item>
 
             <v-list-item :to="'/Ventas'">
@@ -51,6 +51,13 @@
             <v-icon>mdi-account</v-icon>
           </v-list-item-icon>
           <v-list-item-title>Productos</v-list-item-title>
+        </v-list-item>
+
+        <v-list-item :to="'/AddProduct'">
+          <v-list-item-icon>
+            <v-icon>mdi-account</v-icon>
+          </v-list-item-icon>
+          <v-list-item-title>Agregar Productos</v-list-item-title>
         </v-list-item>
 
         </v-list-item-group>
