@@ -4,7 +4,7 @@
     height="400"
   >
     <v-app-bar
-      color="#935116"
+      color="#d8c6bc"
       dark
     >
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
@@ -53,7 +53,7 @@
           <v-list-item-title>Productos</v-list-item-title>
         </v-list-item>
 
-        <v-list-item :to="'/AddProduct'">
+        <v-list-item :to="'/Agregar'">
           <v-list-item-icon>
             <v-icon>mdi-account</v-icon>
           </v-list-item-icon>
@@ -65,7 +65,7 @@
     </v-navigation-drawer>
     <body>
       <div>
-          <center><img src="../assets/logomuebles.jpg" height="90px"></center>
+          <center><img src="../assets/logoxs.png" height="90px"></center>
           <h1>Muebles Casa Vieja</h1>
           <header>
               <nav>
@@ -92,7 +92,7 @@ export default {
 
 <style scoped>
 header {
-  background: rgb(155, 100, 58);
+  background: #d8c6bc;
   width: 100%;
   z-index: index 100%;
   position:sticky;
@@ -118,10 +118,11 @@ nav ul a {
   margin-right: 3px;
 }
 a:hover {
-  background: #513111;
+  background: #c4b3a9;
   border-radius: 10px;
 }
 @import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+@import url('https://fonts.googleapis.com/css2?family=Miniver&display=swap');
 
 * {
   margin:2px;
@@ -139,13 +140,13 @@ border-style: solid;
 border-width: 1.5px 1.5px;
 box-shadow:
 
- 1px 1px 0 rgb(136, 73, 21),
- 2px 2px 0 rgb(136, 73, 21),
- 3px 3px 0 rgb(136, 73, 21),
- 4px 4px 0 rgb(136, 73, 21),
- 5px 5px 0 rgb(136, 73, 21),
- 6px 6px 0 rgb(136, 73, 21),
- 7px 7px 0 rgb(136, 73, 21)
+ 1px 1px 0 rgb(246, 219, 196),
+ 3px 3px 0 rgb(215, 174, 141),
+ 3px 3px 0 rgb(156, 136, 120),
+ 4px 4px 0 rgb(215, 174, 141),
+ 3px 3px 0 rgb(156, 136, 120),
+ 6px 6px 0 rgb(245, 206, 174),
+ 8px 8px 0 rgb(246, 219, 196)
 
 }
 
@@ -164,16 +165,16 @@ border:0.2em solid rgb(157, 96, 26),
 
 .field>button {
 padding:0.6em 0.8em;
-background-color:rgb(157, 96, 26);
+background-color:#e6d5ca;
 color:white;
 border:none;
 cursor: pointer;
 }
 h1{
-font-family: Arial Black;
-font-size: 45px;
-text-shadow: 1px 1px black;
-color:saddlebrown;
+font-family: 'Miniver', cursive;
+font-size: 50px;
+text-shadow: 3px 3px #edd4c1;
+color:rgb(163, 142, 125);
 text-align: center;
 }
 a{
@@ -187,9 +188,6 @@ font-size: 20px;
 img{
 height: 100px;
 margin-top: 20px;
-border-radius: 5px;
-border-style:solid;
-border-color: #513111;
 }
 
 
