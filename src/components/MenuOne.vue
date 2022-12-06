@@ -92,7 +92,7 @@ export default {
 
 <style scoped>
 header {
-  background: #d8c6bc;
+  background: rgb(227, 205, 195);
   width: 100%;
   z-index: index 100%;
   position:sticky;

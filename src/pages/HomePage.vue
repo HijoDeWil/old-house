@@ -5,7 +5,7 @@
       </head>
       
       <body>
-          <h1>Muebles de diferentes precios</h1>
+          <h1>Muebles</h1>
           <div class="image-slider">
               <div class="image-slider-track">
                   <div class="slide">
@@ -80,9 +80,9 @@ methods: {
 <style scoped>
 
 h1{
-  color: rgb(255, 255, 255);
-  background-color: rgb(231, 202, 164);
+  color: rgb(180, 154, 137);
   text-shadow: 5cm;
+  font-family: 'Miniver', cursive;
 
 }
 

@@ -48,14 +48,6 @@
                             <p>Más de 150 diseños<br>
                             Explora  los diseños más recientes</p>
                         </div>
-                        <div class="four columns icono icono2">
-                            <p>Muebles diseñados a la medida<br>
-                            Innovamos constantemente</p>
-                        </div>
-                        <div class="four columns icono icono3">
-                            <p>Entregas inmediatas<br>
-                            En más de 33 municipios</p>
-                        </div>
                 </div>
             </div>
     
@@ -351,7 +343,7 @@ title.style.fontSize = '100px'
 
   <style scoped>
   body {
-    background-color: #eae5d5
+    background-color: #f6e2d9
 }
 h1 {
     text-align: center;
@@ -360,17 +352,13 @@ h2 {
     font-size: 3rem;
 }
 header {
-    padding: 1px 0;
-    background: #e2a22c; /* Old browsers */
-    background: -moz-linear-gradient(left, #e2a22c 0%, #744202 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #e2a22c 0%,#744202 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #e2a22c 0%,#744202 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a22c', endColorstr='#744202',GradientType=1 ); /* IE6-9 */
+    padding: 20px 0;
+    background: #a38e7d; /* Old browsers */
 }
 
 @media (min-width: 750px) {
     header {
-        text-align: left;
+        text-align: right;
     }
 }
 .borrar-curso {
@@ -451,27 +439,24 @@ ul {
 
 
 .barra {
-    padding:8px 0;
+    padding:0px 0;
     margin-top: 0px;
-    background: #e2a22c; /* Old browsers */
-    background: -moz-linear-gradient(left, #e2a22c 0%, #744202 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #e2a22c 0%,#744202 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #e2a22c 0%,#744202 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a22c', endColorstr='#744202',GradientType=1 ); /* IE6-9 */
+    background: transparent; /* Old browsers */
 }
 
 .barra p {
-    margin-top: -50px;
+    margin-top: -80px;
     color: white;
     height: auto;
+    background: transparent;
     
 }
 .icono {
     background-repeat: no-repeat;
     background-position: left center;
-    padding-left: 60px;
+    padding-left: 50px;
     background-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: -1px;
     text-align: center;
 }
 @media (min-width: 750px) {
@@ -479,21 +464,21 @@ ul {
         margin-bottom:0;
     }
 }
-.icono1 {
-    background-image: url(../assets/icono1.png);
-}
-.icono2 {
-    background-image: url(../assets/icono2.png);
-}
-.icono3 {
-    background-image: url(../assets/icono3.png);
-}
 
 #lista-cursos .row {
     margin-bottom:20px;
 }
 .agregar-carrito {
-    margin:10px 0;
+    margin:20px 0;
+}
+/*carrito*/
+
+#vaciar-carrito{
+padding-left: 6ch;
+}
+
+#lista-carrito{
+  border-style:none ;
 }
 .card{
     transition: transform .5s;
@@ -503,7 +488,7 @@ ul {
 }
 .card {
     text-align: center;
-    border: 1px solid #e1e1e1;
+    border: 4px solid #e3cdc3;
     background: white;
 }
 @media (min-width: 550px) {
@@ -524,6 +509,7 @@ ul {
     font-size: 18px;
     margin-top: 10px;
 }
+
 .info-card .precio span {
     font-weight: 700;
     font-size: 22px;
@@ -1333,15 +1319,16 @@ body {
   h3{
     font-family:Arial Black;
     font-size: 40px;
-    text-shadow: #503805 1.5px 1.5px;
+    text-shadow: #edd4c1 1.5px 1.5px;
     text-align: center;
-    color: #9b7525;
+    color: #a38e7d;
   }
   p{
     font-size: 12px;
   }
   .submenu{
-   margin-left: 45px;
+   margin-left: 930px;
+   margin-bottom: 10px;
   }
   th{
     font-size: 12px;
