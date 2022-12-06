@@ -362,7 +362,7 @@ header {
     }
 }
 .borrar-curso {
-    background-color: rgb(207, 139, 12);
+    background-color: rgb(244, 233, 213);
     border-radius: 50%;
     padding: 5px 10px;
     text-decoration: none;
@@ -439,16 +439,20 @@ ul {
 
 
 .barra {
-    padding:0px 0;
+    padding:-70px 0;
     margin-top: 0px;
     background: transparent; /* Old browsers */
+    margin-right: -32%;
 }
 
 .barra p {
-    margin-top: -80px;
-    color: white;
+    margin-top: -90px;
+    color: rgb(255, 255, 255);
     height: auto;
     background: transparent;
+    font-size: 15px;
+    font-style:oblique;
+    
     
 }
 .icono {
@@ -497,12 +501,12 @@ padding-left: 6ch;
     }
 }
 .info-card  {
-    padding: 10px 20px;
+    padding: 6px 31px;
 }
 
 .info-card p, 
 .card h4 {
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 .info-card .precio {
     text-decoration: line-through;
@@ -695,8 +699,8 @@ body {
   input[type="reset"].button-primary,
   input[type="button"].button-primary {
     color: #FFF;
-    background-color: #d19410;
-    border-color: #d19410; }
+    background-color: #a38e7d;
+    border-color: #e3cdc3; }
   .button.button-primary:hover,
   button.button-primary:hover,
   input[type="submit"].button-primary:hover,
@@ -977,6 +981,7 @@ body {
   
   a {
     background-color: transparent;
+    
   }
   
   /**
@@ -1327,7 +1332,7 @@ body {
     font-size: 12px;
   }
   .submenu{
-   margin-left: 930px;
+   margin-left: 889px;
    margin-bottom: 10px;
   }
   th{
